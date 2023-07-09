@@ -10,4 +10,4 @@ def cadastrar_usuario(request):
             return redirect('cadastro_concluido')
     else:
         form = UsuarioForm()
-    return render(request, 'usuarios/templates/cadastrar_usuario.html', {'form': form})
+    return render(request, 'usuarios/cadastrar_usuario.html', {'form': form})
